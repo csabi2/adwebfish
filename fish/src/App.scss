@@ -1,0 +1,99 @@
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+html, body, #root, .App {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: unset;
+}
+
+.content-wrapper {
+  height: calc(100vh - 5em);
+  overflow: auto;
+}
+
+body {
+  background-color : aquamarine;
+
+}
+
+
+
+#catchForm, #welcome {
+  width: 75%;
+  margin: 10em auto auto;
+  background: whitesmoke;
+  padding: 3em;
+  border-radius: 1em;
+}
+
+#welcome {
+  text-align: center;
+  background-color: bisque;
+}
+
+
+
+#catches, #mycatches {
+  margin: 4em;
+  table {
+    margin-top: 1em;
+    text-align: center;
+  }
+}
+
+
+
+.card {
+  width: 50%;
+  margin: 3em auto auto;
+  text-align: center;
+}
+
+.card table tr>td:first-child {
+  text-align: center;
+}
+.card table tr>td:last-child {
+  text-align: center;
+}
+.toast {
+  position: absolute;
+  z-index: 100000;
+  bottom: 1em;
+  right: 2em;
+  width: 15em;
+}
+
+.navbar {
+  height: 15em;
+  font-size:25px;
+  font-weight: bold;
+  text-alig:center;
+}
+
+.accordion .card {
+  margin: unset;
+  width: 100%;
+
+}
+
+
+
+#filter{
+  width: 60%;
+  padding: 1em;
+   margin: auto;
+  >div{
+    margin: 1em;
+  }
+  button{
+
+    margin-left: 1em;
+    width: calc(100% - 2em);
+  }
+}
+#mycatches h2 {
+  color: aquamarine;
+  padding: 1em;
+}
